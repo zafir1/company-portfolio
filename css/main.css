@@ -1,0 +1,217 @@
+body{
+	margin:0;
+	padding:0;
+	width:100%;
+	font-size: 120%;
+	background-color: #cccccc;
+	//background-color: lightblue;
+	font-family: arial, Helvetica, sans-serif;
+	line-height: 1.5em;
+}
+.container{
+	width:80%;
+	//text-align:center;
+	margin: auto;
+	overflow: hidden;
+}
+.button1{
+	height:38px;
+	background-color:orange;
+	padding-left: 20px;
+	padding-right: 20px;
+	border:none;
+	color:white;
+	font-size: 15px;
+	margin: 10px;
+}
+.button2{
+	height:38px;
+	background-color:orange;
+	padding-left: 20px;
+	padding-right: 20px;
+	border:none;
+	color:white;
+	font-size: 15px;
+	
+}
+header{
+	background-color: #35424a;
+	color: #ffffff;
+	padding-top: 30px;
+	border-bottom: 0.2em solid orange;
+	min-height: 3em;
+}
+header a{
+	color: white;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 0.8em;
+}
+header ul{
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+}
+header li{
+	display: inline;
+	padding: 0 2em 0 2em;
+}
+header #branding{
+	float : left;
+}
+header #branding h1{
+	margin:0;
+}
+header nav{
+	float:right;
+	margin-top: 0.5em;
+}
+header .highlight, .current{
+	color:orange;
+	font-weight: bold;
+}
+header a:hover{
+	color: lightblue;
+	font-weight: bold;
+}
+/* showcase*/
+#showcase{
+	min-height: 25em;
+	background: url("../images/laptop2.jpg") no-repeat -70px -600px;
+	text-align: center;
+	color:white;
+}
+#showcase h1{
+	margin-top: 2.5em;
+	font-size: 1.8em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+#showcase p{
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+/*newsletter*/
+#newsletter{
+	color:white;
+	background: #35424a;
+	padding:0.8em;
+}
+#newsletter h1{
+	float: left;
+}
+#newsletter form{
+	float: right;
+	margin-top: 15px;
+}
+#newsletter input[type='email']{
+	padding: 4px;
+	height:25px;
+	width:25em;
+}
+/* about page section aside*/
+aside{
+	margin-top: 5em;
+	padding: 25px;
+	float: right;
+	width:30%;
+	background-color: #35424a;
+	color:white;
+}
+article{
+	float: left;
+	width: 60%;
+}
+section #second{
+
+	background-color: #35424a;
+	color: white;
+	padding:25px;
+}
+
+/*boxws*/
+
+#boxes{
+	margin-top: 20px;
+}
+#boxes .box{
+	float: left;
+	width:30%;
+	text-align: center;
+	padding:15px;
+}
+#boxes .box img{
+	width:90px;
+}
+
+footer{
+	background-color:orange;
+	color:white;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+
+
+}
+footer p{
+	margin-bottom: 0;
+}
+
+#services li{
+	list-style: none;
+	padding:20px;
+	border:#cccccc solid 1px;
+	margin-top:5px;
+	margin-bottom: 10px;
+	background-color: #e6e6e6;
+}
+#input, #textarea{
+	width:90%;
+	padding:5px;
+}
+
+/*@media(max-width: 768px)
+{
+	header #branding,
+	header nav,
+	header nav li,
+	#newsletter h1,
+	#newsletter form,
+	#boxes .box,
+	#main-col,#services ul,
+	aside #sidebar
+	{
+		float: none;
+		text-align: center;
+		width: 100%;
+	}
+	header{
+		padding-bottom: 20px;
+	}
+	#showcase h1{
+		margin-top: 40px;
+	}
+	#newsletter button{
+		display: block;
+		width: 100%;
+	}
+	#showcase{
+		min-height: 26em;
+		background: url("../images/laptop2.jpg") no-repeat -700px -600px;
+		text-align: center;
+		color:white;
+	}
+	#newsletter input[type='email']{
+		padding: 4px;
+		height:25px;
+		width:100%;
+		margin-bottom: 5px;
+	}
+	#sidebar{
+		float:none;
+		text-align: center;
+		margin-bottom: 10px;
+		margin-top: 5px;
+		width: 100%;
+	}
+}*/
